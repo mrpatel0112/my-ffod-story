@@ -1,0 +1,47 @@
+/* Basic Reset and Styling */
+body {
+  background-image: url('https://img.freepik.com/premium-photo/big-set-organic-food-fresh-raw-vegetables_220925-4521.jpg');
+  background-size: cover; /* Adjusts the size of the background image */
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Recipe Display Styles */
+  .recipe {
+    margin-bottom: 30px;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recipe h3 {
+    margin-top: 10px;
+  }
+  
+  /* Add more styling as needed */
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    /* Add responsive styles */
+  }
